@@ -1,0 +1,37 @@
+html, body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: lightpink;
+    flex-direction: column;
+}
+h1{
+    font-size: 5rem;
+    margin: 0px;
+    padding: 0px;
+    color: magenta;
+    -webkit-text-stroke: 1px black;
+}
+#main{
+    display: grid;
+    grid-template-columns: repeat(50, 15px);
+    grid-template-rows: repeat(50,15px);
+    border: black solid 3px;
+}
+
+.divColored{
+    background-color: green;
+    border: none;
+}
+.divClear{
+    background-color: white;
+    border: solid lightgray 0.1px;
+}
+
+button{
+    margin: 5px;
+    padding: 5px;
+
+}
